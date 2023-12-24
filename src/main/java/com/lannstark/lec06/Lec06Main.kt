@@ -1,0 +1,14 @@
+package com.lannstark.lec06
+
+fun main (){
+
+    val numbers = listOf(1L, 2L, 3L)
+    for (number in numbers) {
+        println(number)
+    }
+
+    for (i in 1..5 step 2) {
+        println(i)
+    }
+}
+
