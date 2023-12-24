@@ -1,7 +1,8 @@
-package com.lannstark.lec16
+ package com.lannstark.lec16
 
 fun main() {
-
+    val str = "ABC"
+    println(str.lastChar())
 }
 
 fun String.lastChar(): Char {

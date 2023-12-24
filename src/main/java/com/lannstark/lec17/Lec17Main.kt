@@ -27,7 +27,10 @@ fun main() {
 
     val isApple2 = {fruit: Fruit -> fruit.name == "사과"}
 
-    filterFruits(fruits) { it.name == "사과" }
+    val filterFruits = filterFruits(fruits) { it.name == "사과" && it.price >=1200}
+    for (filterFruit in filterFruits) {
+        println(filterFruit.name + filterFruit.price)
+    }
 
 }
 
