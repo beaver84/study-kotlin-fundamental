@@ -1,4 +1,4 @@
- package com.lannstark.lec16
+package com.lannstark.lec16
 
 fun main() {
     val str = "ABC"
@@ -6,5 +6,5 @@ fun main() {
 }
 
 fun String.lastChar(): Char {
-    return this[this.length -1]
+    return this[this.length - 1]
 }
